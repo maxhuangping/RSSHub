@@ -711,6 +711,9 @@
     "/bangumi/tv/calendar/today": [
         "magic-akari"
     ],
+    "/bangumi/tv/followrank": [
+        "honue"
+    ],
     "/bangumi/tv/group/:id": [
         "SettingDust"
     ],
@@ -3969,6 +3972,9 @@
     ],
     "/javlibrary/genre/:genre?/:language?/:mode?": [
         "nczitzk"
+    ],
+    "/javlibrary/maker/:maker?/:language?/:mode?": [
+        "Zhixin Hu"
     ],
     "/javlibrary/mostwanted/:language?/:mode?": [
         "nczitzk"
