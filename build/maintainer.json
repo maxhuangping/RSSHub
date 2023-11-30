@@ -741,6 +741,9 @@
     "/bangumi/tv/user/blog/:id": [
         "nczitzk"
     ],
+    "/bangumi/tv/user/wish/:id": [
+        "honue"
+    ],
     "/banyuetan/:name": [],
     "/banyuetan/byt/:time?": [],
     "/baozimh/comic/:name": [
@@ -7411,8 +7414,9 @@
     "/weibo/oasis/user/:userid": [
         "kt286"
     ],
-    "/weibo/search/hot": [
-        "xyqfer"
+    "/weibo/search/hot/:fulltext?": [
+        "xyqfer",
+        "shinemoon"
     ],
     "/weibo/super_index/:id/:type?/:routeParams?": [
         "zengxs",
