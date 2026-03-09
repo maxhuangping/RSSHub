@@ -45123,7 +45123,7 @@
     ]
   },
   "theinitium.com": {
-    "_name": "The Initium",
+    "_name": "端传媒",
     "app": [
       {
         "title": "App",
@@ -45144,26 +45144,26 @@
         "target": "/theinitium/author/:type"
       },
       {
-        "title": "栏目",
+        "title": "专题・栏目",
         "docs": "https://docs.rsshub.app/routes/new-media",
         "source": [
-          "/latest/"
-        ],
-        "target": "/theinitium/channel/latest"
-      },
-      {
-        "title": "栏目",
-        "docs": "https://docs.rsshub.app/routes/new-media",
-        "source": [
-          "/tag/:type"
+          "/channel/:type"
         ],
         "target": "/theinitium/channel/:type"
+      },
+      {
+        "title": "作者",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/author/:type"
+        ],
+        "target": "/theinitium/author/:type"
       },
       {
         "title": "话题・标签",
         "docs": "https://docs.rsshub.app/routes/new-media",
         "source": [
-          "/tag/:type"
+          "/tags/:type"
         ],
         "target": "/theinitium/tags/:type"
       }
