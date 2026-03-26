@@ -2268,9 +2268,6 @@
   "/devtrium/": [
     "Xy2002"
   ],
-  "/dewu/techblog/:categoryId?": [
-    "zhenlohuang"
-  ],
   "/dewu/declaration/:categoryId?": [
     "blade0910"
   ],
@@ -4739,11 +4736,11 @@
   "/iwara/users/:username/:type?": [
     "Fatpandac"
   ],
-  "/iwara/ranking/:type?/:sort?/:rating?": [
-    "CaoMeiYouRen233"
-  ],
   "/iwara/subscriptions": [
     "FeCCC"
+  ],
+  "/iwara/ranking/:type?/:sort?/:rating?": [
+    "CaoMeiYouRen233"
   ],
   "/ixigua/user/video/:uid/:disableEmbed?": [
     "FlashWingShadow",
