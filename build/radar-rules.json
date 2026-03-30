@@ -13825,7 +13825,7 @@
         "target": "/ddosi/category/:category"
       },
       {
-        "title": "Unknown",
+        "title": "首页",
         "docs": "https://docs.rsshub.app/routes/blog",
         "source": [
           "/"
@@ -28817,6 +28817,19 @@
           "/en/about-lmu/working-at-lmu/job-portal/academic-staff/"
         ],
         "target": "/lmu/lmu/jobs"
+      }
+    ]
+  },
+  "locals.com": {
+    "_name": "Locals",
+    ".": [
+      {
+        "title": "Content Feed",
+        "docs": "https://docs.rsshub.app/routes/social-media",
+        "source": [
+          "/:community/feed"
+        ],
+        "target": "/locals/content/:community"
       }
     ]
   },
