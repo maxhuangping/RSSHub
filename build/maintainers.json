@@ -5374,9 +5374,6 @@
   "/lmu/jobs": [
     "StarDxxx"
   ],
-  "/locals/content/:community/:option1?/:option2?": [
-    "luckycold"
-  ],
   "/lofter/collection/:collectionID": [
     "SrakhiuMeow"
   ],
