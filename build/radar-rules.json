@@ -38166,6 +38166,19 @@
       }
     ]
   },
+  "peterwunder.de": {
+    "_name": "Peter Wunder",
+    "projects": [
+      {
+        "title": "New Badges",
+        "docs": "https://docs.rsshub.app/routes/other",
+        "source": [
+          "/achievements"
+        ],
+        "target": "/peterwunder/achievements"
+      }
+    ]
+  },
   "phoronix.com": {
     "_name": "Phoronix",
     ".": [
@@ -45410,6 +45423,20 @@
           "/"
         ],
         "target": "/thewirehindi/"
+      }
+    ]
+  },
+  "thinkingmachines.ai": {
+    "_name": "Thinking Machines Lab",
+    ".": [
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/routes/programming",
+        "source": [
+          "/news",
+          "/news/"
+        ],
+        "target": "/thinkingmachines/news"
       }
     ]
   },

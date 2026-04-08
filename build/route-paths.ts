@@ -2206,6 +2206,7 @@ export type RoutePath =
   | `/peopo/topic/:topicId?`
   | `/perplexity/blog`
   | `/perplexity/changelog`
+  | `/peterwunder/achievements`
   | `/phoronix/:category?/:topic?`
   | `/pianyivps/`
   | `/pianyuan/index/:media?`
@@ -2768,6 +2769,7 @@ export type RoutePath =
   | `/theverge/:hub?`
   | `/thewirehindi/`
   | `/thewirehindi/category/:category`
+  | `/thinkingmachines/news`
   | `/thoughtco/:category?`
   | `/thoughtworks/blog`
   | `/threads/:user/:routeParams?`
