@@ -25544,6 +25544,19 @@
       }
     ]
   },
+  "jable.tv": {
+    "_name": "jable",
+    ".": [
+      {
+        "title": "Jable 搜索结果",
+        "docs": "https://docs.rsshub.app/routes/multimedia",
+        "source": [
+          "/search/:query"
+        ],
+        "target": "/jable/search/:query"
+      }
+    ]
+  },
   "jamesclear.com": {
     "_name": "James Clear",
     ".": [
@@ -48362,6 +48375,20 @@
           "/"
         ],
         "target": "/xboxfan/news"
+      }
+    ]
+  },
+  "xhamster.com": {
+    "_name": "xHamster",
+    ".": [
+      {
+        "title": "Newest Videos by Creator",
+        "docs": "https://docs.rsshub.app/routes/multimedia",
+        "source": [
+          "/creators/:creators",
+          "/creators/:creators/newest"
+        ],
+        "target": "/xhamster/:creators"
       }
     ]
   },

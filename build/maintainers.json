@@ -4774,6 +4774,9 @@
   "/j-test/news": [
     "kuhahku"
   ],
+  "/jable/search/:query": [
+    "eve2ptp"
+  ],
   "/jamesclear/book-summaries": [
     "Rjnishant530"
   ],
@@ -9415,6 +9418,9 @@
   ],
   "/xboxfan/news": [
     "XXY233"
+  ],
+  "/xhamster/:creators": [
+    "eve2ptp"
   ],
   "/xianbao/:category?": [
     "nashi23"

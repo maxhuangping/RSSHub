@@ -1559,6 +1559,7 @@ export type RoutePath =
   | `/iwara/users/:username/:type?`
   | `/ixigua/user/video/:uid/:disableEmbed?`
   | `/j-test/news`
+  | `/jable/search/:query`
   | `/jamesclear/3-2-1`
   | `/jamesclear/book-summaries`
   | `/jamesclear/great-speeches`
@@ -3056,6 +3057,7 @@ export type RoutePath =
   | `/xbmu/announcement`
   | `/xbookcn/:label?`
   | `/xboxfan/news`
+  | `/xhamster/:creators`
   | `/xianbao/:category?`
   | `/xiaoheihe/add2cart/:platform`
   | `/xiaoheihe/discount/:platform`
