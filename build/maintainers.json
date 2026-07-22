@@ -1444,22 +1444,22 @@
   "/bsky/profile/:handle/:routeParams?": [
     "TonyRL"
   ],
-  "/daily/discussed/:period?/:dateSort?": [
+  "/daily/discussed/:period?/:innerSharedContent?/:dateSort?": [
     "Rjnishant530"
   ],
-  "/daily/popular/:dateSort?": [
+  "/daily/popular/:innerSharedContent?/:dateSort?": [
     "Rjnishant530"
   ],
-  "/daily/source/:sourceId": [
+  "/daily/source/:sourceId/:innerSharedContent?": [
     "TonyRL"
   ],
-  "/daily/squads/:squads": [
+  "/daily/squads/:squads/:innerSharedContent?": [
     "Rjnishant530"
   ],
-  "/daily/upvoted/:period?/:dateSort?": [
+  "/daily/upvoted/:period?/:innerSharedContent?/:dateSort?": [
     "Rjnishant530"
   ],
-  "/daily/user/:userId": [
+  "/daily/user/:userId/:innerSharedContent?": [
     "TonyRL"
   ],
   "/discord/quests": [
