@@ -55,6 +55,7 @@ export type RoutePath =
   | `/36kr/hot-list/:category?`
   | `/3dmgame/games/:name/:type?`
   | `/3dmgame/news/:category?`
+  | `/3gmuseum/tempexhibition`
   | `/3kns/:filters?/:order?`
   | `/423down/:category{.+}?`
   | `/4chan/:board/catalog/:routeParams?`
@@ -714,12 +715,12 @@ export type RoutePath =
   | `/cztv/zjxwlb`
   | `/cztv/zjxwlb/daily`
   | `/dahecube/:type?`
-  | `/daily/discussed/:period?/:innerSharedContent?/:dateSort?`
-  | `/daily/popular/:innerSharedContent?/:dateSort?`
-  | `/daily/source/:sourceId/:innerSharedContent?`
-  | `/daily/squads/:squads/:innerSharedContent?`
-  | `/daily/upvoted/:period?/:innerSharedContent?/:dateSort?`
-  | `/daily/user/:userId/:innerSharedContent?`
+  | `/daily/discussed/:period?/:dateSort?`
+  | `/daily/popular/:dateSort?`
+  | `/daily/source/:sourceId`
+  | `/daily/squads/:squads`
+  | `/daily/upvoted/:period?/:dateSort?`
+  | `/daily/user/:userId`
   | `/dailypush/:sort?`
   | `/dailypush/tag/:tag/:sort?`
   | `/damai/activity/:city/:category/:subcategory/:keyword?`
