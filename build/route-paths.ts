@@ -456,6 +456,8 @@ export type RoutePath =
   | `/cankaoxiaoxi/column/:id?`
   | `/capitalmind/insights`
   | `/capitalmind/podcasts`
+  | `/capitalmuseum/exhibition/:type?`
+  | `/capitalmuseum/news/:type?`
   | `/cara/likes/:user`
   | `/cara/portfolio/:user`
   | `/cara/timeline/:user`
@@ -2484,6 +2486,7 @@ export type RoutePath =
   | `/scmp/:category_id`
   | `/scmp/coronavirus`
   | `/scmp/topics/:topic`
+  | `/scmuseum/exhibition/:type?`
   | `/scnu/cs/match`
   | `/scnu/jw`
   | `/scnu/library`
@@ -2747,6 +2750,7 @@ export type RoutePath =
   | `/sysu/ygafz/:type?`
   | `/szftedu/dongtai`
   | `/szftedu/gonggao`
+  | `/szmuseum/temporary`
   | `/szse/disclosure/listed/notice/:query?`
   | `/szse/inquire/:category?/:select?/:keyword?`
   | `/szse/notice`
@@ -2855,6 +2859,8 @@ export type RoutePath =
   | `/tingshuitz/yangjiang`
   | `/tingtingfm/program/:programId`
   | `/tisi/latest`
+  | `/tjbwg/exhibition`
+  | `/tjbwg/news`
   | `/tju/cic/:type?`
   | `/tju/news/:type?`
   | `/tju/oaa/:type?`
@@ -3289,6 +3295,7 @@ export type RoutePath =
   | `/zju/cst/custom/:id`
   | `/zju/grs/:type`
   | `/zju/list/:type`
+  | `/zju/math/:type`
   | `/zju/physics/:type`
   | `/zju/sis/:type`
   | `/zjut/cs/:type`
