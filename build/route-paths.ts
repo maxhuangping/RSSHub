@@ -1107,6 +1107,7 @@ export type RoutePath =
   | `/esquirehk/tag/:id?`
   | `/etherscan/transactions/:address`
   | `/etoland/:bo_table`
+  | `/eurogamer/:category?`
   | `/europapress/:category?`
   | `/europechinese/latest`
   | `/eventbrite/:region/:eventType?/:includePromoted?`
@@ -1808,7 +1809,6 @@ export type RoutePath =
   | `/inspirehep/authors/:id`
   | `/inspirehep/literature/:q`
   | `/instagram/:category/:key`
-  | `/instagram/2/:category/:key`
   | `/instructables/projects/:category?`
   | `/inuki-ichiba/rent/:pref?`
   | `/investor/:id{.+}?`
